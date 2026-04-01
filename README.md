@@ -43,21 +43,21 @@ Ensure PostgreSQL is installed and running.
 ### Step 2: Start Security Backend (FastAPI)
 This service handles logging and threat detection.
 
-cd backend
-uvicorn backend.app.main:app --reload
+- cd backend
+- uvicorn backend.app.main:app --reload
 
 ### Step 3: Start Banking Backend (Node.js)
 This service handles all banking APIs such as login, balance, and transactions.
 
-cd backend
-node server.js
+- cd backend
+- node server.js
 
 ### Step 4: Start Frontend (React)
 This launches the user interface and dashboard.
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 ## Future Scope
 - Advanced SIEM correlation rules
