@@ -4,7 +4,7 @@ A SIEM-based real-time API monitoring system designed to detect and analyze secu
 ## Overview
 This project implements a Security Information and Event Management (SIEM) system for monitoring API security in a fintech application. It logs API activity, detects malicious patterns, and provides real-time monitoring through a dashboard.
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Backend: Node.js, Express
 - Frontend: React (Vite)
 - ML Service: Python
